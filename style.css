@@ -1,12 +1,13 @@
 
 body {
     font-family: sans-serif;
-    background: #f4f4f4;
+    background: #ffe6f0; /* fondo rosado de toda la página */
     margin: 0;
     padding: 20px;
 }
 h1 {
     text-align: center;
+    color: #800080; /* título morado */
 }
 #malla {
     display: flex;
@@ -24,12 +25,11 @@ h1 {
     cursor: pointer;
     transition: 0.3s;
     white-space: pre-line;
+    color: #4b0082; /* texto normal morado oscuro */
 }
 .ramo.aprobado {
-    background-color: #c6efce;
+    background-color: white;
+    color: #800080; /* texto morado fuerte */
     text-decoration: line-through;
-    opacity: 0.6;
-}
-.ramo:hover {
-    box-shadow: 0 0 5px rgba(0,0,0,0.2);
-}
+    border: 2px solid #800080;
+    font-weight: bold;
