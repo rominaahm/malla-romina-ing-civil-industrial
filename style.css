@@ -27,6 +27,8 @@ h1 {
 }
 .ramo.aprobado {
     background-color: #c6efce;
+    text-decoration: line-through;
+    opacity: 0.6;
 }
 .ramo:hover {
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
