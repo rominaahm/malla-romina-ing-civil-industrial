@@ -1,0 +1,33 @@
+
+body {
+    font-family: sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+#malla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.ramo {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    white-space: pre-line;
+}
+.ramo.aprobado {
+    background-color: #c6efce;
+}
+.ramo:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
