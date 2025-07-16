@@ -41,10 +41,10 @@ h1 {
   white-space: pre-line;
 }
 .ramo.aprobado {
-  background-color: white;
-  color: #800080;
+  background-color: #5e2b7b;
+  color: #ffffff;
   text-decoration: line-through;
-  border: 2px solid #800080;
+  border: 2px solid #ffffff;
 }
 .ramo.bloqueado {
   background-color: #eee;
